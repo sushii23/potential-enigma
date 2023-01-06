@@ -4,24 +4,56 @@ const generateMarkdown = require("./generateMarkdown.js");
 
 const questions = [ 
     {
-
-
+       type:"",
+       name:"",
+       message:"",
+    },
+    { 
+        type:"",
+        name:"",
+        message:"",
     },
     {
-
-
+        type:"",
+        name:"",
+        message:"",
     },
-    {
-
-
-
+    { 
+        type:"",
+        name:"",
+        message:"",
     },
-    {
-
-
-    
+    { 
+        type:"",
+        name:"",
+        message:"",
     },
-    
+    { 
+        type:"",
+        name:"",
+        message:"",
+    },
+    { 
+        type:"",
+        name:"",
+        message:"",
+    },
+    { 
+        type:"",
+        name:"",
+        message:"",
+    },
+    { 
+        type:"",
+        name:"",
+        message:"",
+    },
+
+
+
+
+
+
 
 
 
