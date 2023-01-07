@@ -4,49 +4,49 @@ const generateMarkdown = require("./generateMarkdown.js");
 
 const questions = [ 
     {
-       type:"",
+       type:"input",
        name:"",
-       message:"",
+       message:"What is your project name?",
     },
     { 
-        type:"",
+        type:"input",
         name:"",
-        message:"",
+        message:"How would you describe your project?",
     },
     {
-        type:"",
+        type:"input",
         name:"",
         message:"",
     },
     { 
-        type:"",
+        type:"input",
         name:"",
         message:"",
     },
     { 
-        type:"",
+        type:"input",
         name:"",
         message:"",
     },
     { 
-        type:"",
+        type:"list",
         name:"",
         message:"",
     },
     { 
-        type:"",
+        type:"input",
         name:"",
         message:"",
     },
     { 
-        type:"",
+        type:"input",
         name:"",
-        message:"",
+        message:"What's your github username?",
     },
     { 
-        type:"",
+        type:"input",
         name:"",
-        message:"",
+        message:"What's your email address?",
     },
 
 
