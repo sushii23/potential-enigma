@@ -1,52 +1,53 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./generateMarkdown.js");
+const generateReadme = require();
 
 const questions = [ 
     {
-       type:"input",
-       name:"",
-       message:"What is your project name?",
+        name:"",
+        message:"What is your project name?",
+        type:"input",
     },
     { 
-        type:"input",
         name:"",
         message:"How would you describe your project?",
+        type:"input",
     },
     {
-        type:"input",
         name:"",
         message:"",
+        type:"input",
+    },
+    {  
+        name:"",
+        message:"",
+        type:"input",
     },
     { 
-        type:"input",
         name:"",
         message:"",
-    },
-    { 
         type:"input",
-        name:"",
-        message:"",
     },
     { 
         type:"list",
         name:"",
         message:"",
+        choices:""
     },
     { 
-        type:"input",
         name:"",
         message:"",
+        type:"input",
     },
     { 
-        type:"input",
         name:"",
-        message:"What's your github username?",
+        message:"",
+        type:"input",
     },
     { 
-        type:"input",
         name:"",
-        message:"What's your email address?",
+        message:"",
+        type:"input",
     },
 
 
