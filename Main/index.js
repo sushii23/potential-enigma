@@ -4,27 +4,27 @@ const generateReadme = require();
 
 const questions = [ 
     {
-        name:"",
+        name:"title",
         message:"What is your project name?",
         type:"input",
     },
     { 
-        name:"",
+        name:"Description",
         message:"How would you describe your project?",
         type:"input",
     },
     {
-        name:"",
+        name:"Installation",
         message:"",
         type:"input",
     },
     {  
-        name:"",
+        name:"usage",
         message:"",
         type:"input",
     },
     { 
-        name:"",
+        name:"contribution",
         message:"",
         type:"input",
     },
@@ -35,18 +35,18 @@ const questions = [
         choices:""
     },
     { 
-        name:"",
+        name:"test",
         message:"",
         type:"input",
     },
     { 
-        name:"",
-        message:"",
+        name:"github",
+        message:"What's your github username?",
         type:"input",
     },
     { 
-        name:"",
-        message:"",
+        name:"email",
+        message:"provide your email address.",
         type:"input",
     },
 
