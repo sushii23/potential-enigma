@@ -1,8 +1,29 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateREADME =({title, description,installation,usage,contribution,})
 
-const questions = [ 
+
+const generateREADME =({title, description,installation,usage,contribution,license,test,github,email}) => 
+    `#Title
+     
+     #description
+
+     #installation
+
+     #usage
+
+     #contribution
+
+     #license
+
+     #test
+
+     #github
+
+    #email
+    `
+;
+
+inquier.promt =  
     {
         name:"title",
         message:"What is your project name?",
@@ -29,10 +50,10 @@ const questions = [
         type:"input",
     },
     { 
+        name:"license",
+        message:"What licence will your project use?",
+        choices:"",
         type:"list",
-        name:"",
-        message:"",
-        choices:""
     },
     { 
         name:"test",
@@ -52,25 +73,4 @@ const questions = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-];
+    ;
