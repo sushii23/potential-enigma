@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateReadme = require();
+const generateREADME =({title, description,installation,usage,contribution,})
 
 const questions = [ 
     {
@@ -9,12 +9,12 @@ const questions = [
         type:"input",
     },
     { 
-        name:"Description",
+        name:"description",
         message:"How would you describe your project?",
         type:"input",
     },
     {
-        name:"Installation",
+        name:"installation",
         message:"",
         type:"input",
     },
@@ -41,7 +41,7 @@ const questions = [
     },
     { 
         name:"github",
-        message:"What's your github username?",
+        message:"Provide your github username.",
         type:"input",
     },
     { 
