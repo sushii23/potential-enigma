@@ -3,23 +3,40 @@ const fs = require("fs");
 
 
 const generateREADME =({title, description,installation,usage,contribution,license,test,github,email}) => 
-    `#Title
-     
-     #description
+    `# title
+    ${title}
 
-     #installation
+  
+     # description
+     ${description}
 
-     #usage
 
-     #contribution
+     # installation
+     ${installation}
 
-     #license
 
-     #test
+     # usage
+     ${usage}
 
-     #github
 
-    #email
+     # contribution
+     ${contribution}
+
+
+     # license
+     ${license}
+
+
+     # test
+     ${test}
+
+
+     # github
+     ${github}
+
+
+     # email
+     ${email}
     `
 ;
 
