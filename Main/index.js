@@ -40,7 +40,7 @@ const generateREADME =({title, description,installation,usage,contribution,licen
     `
 ;
 
-inquier.promt =  
+inquier.promt = ([ 
     {
         name:"title",
         message:"What is your project name?",
@@ -53,29 +53,32 @@ inquier.promt =
     },
     {
         name:"installation",
-        message:"",
+        message:"What command should be used to install the dependencies?",
+        default:"npm i",
         type:"input",
     },
     {  
         name:"usage",
-        message:"",
+        message:"What should someone know about this repository?",
         type:"input",
     },
     { 
         name:"contribution",
-        message:"",
+        message:"If someone wants to contribute to the project,what should they know?",
         type:"input",
     },
     { 
         name:"license",
         message:"What licence will your project use?",
-        choices:"",
+        choices:["BSD","GPL","MIT","CDDL","none"],
         type:"list",
     },
     { 
         name:"test",
-        message:"",
+        message:"What's the command to run test?",
+        default:"npm test",
         type:"input",
+
     },
     { 
         name:"github",
@@ -84,10 +87,11 @@ inquier.promt =
     },
     { 
         name:"email",
-        message:"provide your email address.",
+        message:"Provide your email address.",
         type:"input",
     },
+])
+.then((data) => {
+    const readme =generateREADME(data);
 
-
-
-    ;
+});
