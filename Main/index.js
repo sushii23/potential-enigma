@@ -41,7 +41,7 @@ const generateREADME =({title, description,installation,usage,contribution,licen
 ;
 
 inquirer
-.promt = ([ 
+.promt ([ 
     {
         name:"title",
         message:"What is your project name?",
