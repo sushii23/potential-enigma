@@ -40,7 +40,8 @@ const generateREADME =({title, description,installation,usage,contribution,licen
     `
 ;
 
-inquier.promt = ([ 
+inquirer
+.promt = ([ 
     {
         name:"title",
         message:"What is your project name?",
@@ -92,6 +93,14 @@ inquier.promt = ([
     },
 ])
 .then((data) => {
-    const readme =generateREADME(data);
+    const readme = generateREADME(data);
+    console.log(readme);
+    fs.writeFile("README.md", readme, (err) => {
+        if(err){
+            console.log(err);
+        } else {
+           console.log("successfully writen file!"); 
+        }
+    });
 
 });
